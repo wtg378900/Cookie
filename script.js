@@ -10,12 +10,9 @@ $("button").click(function() {
     studentWeight = $("input").val();
     let oreos = ( studentWeight * gramsPerPound ) / oreo;   
     if(oreos>100){
-        alert("你应该多打打篮球！");  
+        alert("你应该多打打篮球啦！");  
     }
     
     $("img").attr("src", "https://media.giphy.com/media/ibZqC0rHHnWIo/giphy.gif");
     $("#oreoWeight").text("你的奥利奥体重是 " + oreos + " 奥利奥!");
 });
-
-
-
